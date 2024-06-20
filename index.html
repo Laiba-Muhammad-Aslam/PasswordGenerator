@@ -19,8 +19,8 @@
 
             <div class="password-option">
                 <label for="length" class="fw-bold ms-2">Length</label>
-                <input type="range" name="length" id="length" min="1" max="100" class="me-1">
-                <span class="me-5">100</span>
+                <input type="range" name="length" id="lengthbar" min="1" max="100" class="me-1">
+                <span class="me-5" id="lengthbox">100</span>
 
                 <input type="checkbox" name="numbers" class="largerCheckbox">
                 <label for="numbers" class="fw-bold">Numbers</label>
@@ -30,7 +30,12 @@
             </div>
         </div>
     </div>
+
     <!-- BOOTSRAP JS LINK  -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+
+    <!-- JS FILE LINK  -->
+
+    <script src="app.js"></script>
   </body>
 </html>
