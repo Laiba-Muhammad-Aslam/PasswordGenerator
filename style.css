@@ -1,0 +1,21 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+#container{
+    background-color: #0a2d4d;
+    border-radius: 0px 0px 146px 180px;
+    -webkit-border-radius: 0px 0px 146px 180px;
+    -moz-border-radius: 0px 0px 146px 180px;
+}
+/* #numbers, #symbols{
+    width: 200px;
+} */
+input.largerCheckbox {
+    width: 30px;
+    height: 20px;
+}
+/* .password-option span{
+    background-color: ;
+} */
