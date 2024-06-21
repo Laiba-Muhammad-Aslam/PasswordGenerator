@@ -19,3 +19,9 @@ input.largerCheckbox {
 /* .password-option span{
     background-color: ;
 } */
+#randombtn{
+    border: 2px solid grey;
+}
+#refreshbtn i {
+    font-size: 1.5rem;
+}
