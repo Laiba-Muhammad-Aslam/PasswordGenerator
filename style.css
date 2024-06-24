@@ -9,19 +9,17 @@
     -webkit-border-radius: 0px 0px 146px 180px;
     -moz-border-radius: 0px 0px 146px 180px;
 }
-/* #numbers, #symbols{
-    width: 200px;
-} */
 input.largerCheckbox {
     width: 30px;
     height: 20px;
 }
-/* .password-option span{
-    background-color: ;
-} */
 #randombtn{
     border: 2px solid grey;
 }
-#refreshbtn i {
+#refreshbtn{
     font-size: 1.5rem;
+    cursor: pointer;
+}
+#lengthbar{
+    cursor: pointer;
 }
